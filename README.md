@@ -1,11 +1,13 @@
 # NativeScript plugin for OkHttp
 
-[OkHttp] is an HTTP client that’s efficient by default:
+[OkHttp] is an HTTP client that supports:
 
 - HTTP/2 and SPDY support allows all requests to the same host to share a socket.
 - Connection pooling reduces request latency (if SPDY isn’t available).
 - Transparent GZIP shrinks download sizes.
 - Response caching avoids the network completely for repeat requests.
+
+![](screenshots/okHttp.png)
 
 # Installation
 
