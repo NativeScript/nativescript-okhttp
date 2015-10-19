@@ -7,7 +7,7 @@
 - Transparent GZIP shrinks download sizes.
 - Response caching avoids the network completely for repeat requests.
 
-![](screenshots/okHttp.png)
+![](http://content.screencast.com/users/kiril/folders/Jing/media/fd6b67b1-ffed-48ec-b16c-554dcb08af8f/2015-10-19_1516.png)
 
 # Installation
 
@@ -59,7 +59,7 @@ The `getImage()` method returns an image as a stream from a remote URL.
 
 In this example, we will download an image from umgur (http://i.imgur.com/sXG9IHW.jpg) and we will share it ot Facebook using a social share plugin (https://github.com/tjvantoll/nativescript-social-share).
 
-![](screenshots/majestic lion.png)
+![](http://content.screencast.com/users/kiril/folders/Jing/media/829344ad-7cb3-4e2a-8741-571d8c7a8fdc/2015-10-19_1516.png)
 
 ``` js
 var socialShare = require("nativescript-social-share");
@@ -72,7 +72,7 @@ function pageLoaded(args) {
 }
 exports.pageLoaded = pageLoaded;
 ```
-![](screenshots/lion share.png)
-![](screenshots/lion share 2.png)
+![](http://content.screencast.com/users/kiril/folders/Jing/media/4faa243e-09f0-458c-a7a2-80e86c6be698/2015-10-19_1517.png)
+![](http://content.screencast.com/users/kiril/folders/Jing/media/844cc4d0-8a34-4341-8730-ead1f2e002ea/2015-10-19_1517.png)
 
 
