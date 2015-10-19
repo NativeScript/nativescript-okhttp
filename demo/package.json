@@ -1,0 +1,13 @@
+{
+	"nativescript": {
+		"id": "org.nativescript.nativescriptokhttptest",
+		"tns-android": {
+			"version": "1.4.0"
+		}
+	},
+	"dependencies": {
+		"nativescript-okhttp": "0.0.6",
+		"nativescript-social-share": "^1.1.1",
+		"tns-core-modules": "1.4.0"
+	}
+}
