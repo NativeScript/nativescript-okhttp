@@ -4,7 +4,7 @@
 	  "url": "https://github.com/kiril-stanoev/nativescript-okhttp.git"
 	},
 	"name": "nativescript-okhttp",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"main": "nativescript-okhttp.js",
 	"nativescript": {
 		"platforms": {
