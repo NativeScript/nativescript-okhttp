@@ -1,10 +1,23 @@
 {
-  "name": "nativescript-okhttp",
-  "version": "0.0.1",
-  "main": "nativescript-okhttp.js",
-  "nativescript": {
-    "platforms": {
-      "android": "1.4.0"
-    }
-  }
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/kiril-stanoev/nativescript-okhttp.git"
+	},
+	"name": "nativescript-okhttp",
+	"version": "0.0.1",
+	"main": "nativescript-okhttp.js",
+	"nativescript": {
+		"platforms": {
+			"android": "1.4.0"
+		}
+	},
+	"homepage": "https://github.com/kiril-stanoev/nativescript-okhttp",
+	"keywords": [
+		"NativeScript"
+	],
+	"author": "Kiril Stanoev <kiril.stanoev@gmail.com> (https://github.com/kiril-stanoev/)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/kiril-stanoev/nativescript-okhttp/issues"
+	}
 }
