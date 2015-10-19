@@ -53,5 +53,26 @@ function pageLoaded(args) {
 }
 exports.pageLoaded = pageLoaded;
 ```
+### getImage(url)
+
+The `getImage()` method returns an image as a stream from a remote URL.
+
+In this example, we will download an image from umgur (http://i.imgur.com/sXG9IHW.jpg) and we will share it ot Facebook using a social share plugin (https://github.com/tjvantoll/nativescript-social-share).
+
+![](screenshots/majestic lion.png)
+
+``` js
+var socialShare = require("nativescript-social-share");
+var imageSource = require("image-source");
+var okHttp = require("nativescript-okhttp");
+function pageLoaded(args) {
+    var inputStream = okHttp.getImage("http://i.imgur.com/sXG9IHW.jpg");
+    var image = imageSource.fromData(inputStream);
+    socialShare.shareImage(image);
+}
+exports.pageLoaded = pageLoaded;
+```
+![](screenshots/lion share.png)
+![](screenshots/lion share 2.png)
 
 
