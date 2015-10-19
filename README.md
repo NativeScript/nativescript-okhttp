@@ -1,6 +1,6 @@
 # NativeScript plugin for OkHttp
 
-[OkHttp] is an HTTP client that supports:
+[`OkHttp`](http://square.github.io/okhttp/) is an HTTP client that supports:
 
 - HTTP/2 and SPDY support allows all requests to the same host to share a socket.
 - Connection pooling reduces request latency (if SPDY isn’t available).
@@ -53,6 +53,5 @@ function pageLoaded(args) {
 }
 exports.pageLoaded = pageLoaded;
 ```
-[okHttp]: <http://square.github.io/okhttp/>
 
 
