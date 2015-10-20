@@ -57,7 +57,7 @@ exports.pageLoaded = pageLoaded;
 
 The `getImage()` method returns an image as a stream from a remote URL.
 
-In this example, we will download an image from umgur (http://i.imgur.com/sXG9IHW.jpg) and we will share it ot Facebook using a social share plugin (https://github.com/tjvantoll/nativescript-social-share).
+In this example, we will download an image from umgur (http://i.imgur.com/sXG9IHW.jpg) and we will share it ot Facebook using a social share plugin by @tjvantoll (https://github.com/tjvantoll/nativescript-social-share).
 
 ![](http://content.screencast.com/users/kiril/folders/Jing/media/829344ad-7cb3-4e2a-8741-571d8c7a8fdc/2015-10-19_1516.png)
 
