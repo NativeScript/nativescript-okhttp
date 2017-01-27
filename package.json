@@ -5,7 +5,7 @@
 	},
 	"name": "nativescript-okhttp",
 	"version": "0.0.8",
-	"main": "nativescript-okhttp.js",
+	"main": "nativescript-okhttp",
 	"nativescript": {
 		"platforms": {
 			"android": "1.4.0"
