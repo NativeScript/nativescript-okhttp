@@ -74,24 +74,3 @@ exports.pageLoaded = pageLoaded;
 ```
 ![](http://content.screencast.com/users/kiril/folders/Jing/media/4faa243e-09f0-458c-a7a2-80e86c6be698/2015-10-19_1517.png)
 ![](http://content.screencast.com/users/kiril/folders/Jing/media/844cc4d0-8a34-4341-8730-ead1f2e002ea/2015-10-19_1517.png)
-
-# Future versions will include
-- Actual asynchronous support. I couldn't figure out how async calls in Android translate to JavaScript. That's why I hacked it with 
-
-``` js
-var policy = new android.os.StrictMode.ThreadPolicy.Builder().permitAll().build();
-android.os.StrictMode.setThreadPolicy(policy);
-```
-which prevents you from dealing with android.os.NetworkOnMainThreadException. This will be fixed in the next version.
-- TypeScript support.
-- JavaScript/TypeScript APIs from the [OkHttp Recipes Wiki page](https://github.com/square/okhttp/wiki/Recipes).
-    - Accessing Headers
-    - Posting a String
-    - Post Streaming
-    - Posting a File
-    - Posting form parameters
-    - Posting a multipart request
-    - Parse a JSON Response With Gson
-    - Response Caching
-    - Canceling a Call
-- Tests
