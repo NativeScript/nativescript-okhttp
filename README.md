@@ -43,7 +43,7 @@ exports.pageLoaded = pageLoaded;
 ```
 ### getJSON(url)
 
-The `getString()` method downloads a URL as a string.
+The `getJSON()` method downloads a URL as a string.
 
 ``` js
 var okHttp = require("nativescript-okhttp");
